@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body_index{
+    height: 100vh;
+    background-image: url(blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_index{
+    color: black(255, 255, 255);
+    text-align: center;
+}
+
+.name01{
+    font-size: 80px;
+}
+
+.p01{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.button_index{
+    margin-top: 10px;
+    background-color: rgb(133, 184, 215);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    width: 90px;
+    height: 40px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.redes_sociales {
+    background-color: rgb(133, 184, 215);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redsocial04 {
+    height: 25px;
+    margin-right: 10px;
+}
+
+.menu_blog ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #004d5c;
+    padding: 10px;
+}
+
+.menu_blog li {
+    margin: 0 15px;
+}
+
+.menu_blog a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main {
+    padding: 20px;
+}
+
+.projects {
+    padding: 20px;
+    text-align: center;
+}
+
+.projects h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: 10px auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.project-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.project-card button {
+    background-color: #004d5c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #004d5c;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
